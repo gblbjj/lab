@@ -1,4 +1,4 @@
-#SQUID PROXY OPEN FOR LINUX
+#SQUID PROXY OPEN FOR DUMPS
 FROM ubuntu:latest
 
 RUN apt-get update -y
