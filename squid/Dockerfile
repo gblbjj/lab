@@ -8,4 +8,4 @@ COPY entrypoint.sh /usr/bin
 RUN chmod +x /usr/bin/entrypoint.sh
 EXPOSE 3128 80 443
 #ENTRYPOINT ["/usr/bin/entrypoint.sh"]
-
+CMD ["sh", "/usr/bin/entrypoint.sh"]
