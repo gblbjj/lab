@@ -6,6 +6,6 @@ RUN apt-get -y install squid
 COPY squid.conf   /etc/squid/squid.conf
 COPY entrypoint.sh /usr/bin
 RUN chmod +x /usr/bin/entrypoint.sh
-EXPOSE 3128 80 443
+EXPOSE 3128 80 443 8080 
 #ENTRYPOINT ["/usr/bin/entrypoint.sh"]
   
